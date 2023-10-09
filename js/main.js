@@ -1,3 +1,5 @@
+import users from './users.js'
+
 //*1
 //Отримати масив імен всіх користувачів (поле name).
 
@@ -51,7 +53,7 @@ console.log(getUserWithEmail(users, 'elmahead@omatom.com'));
   // {об'єкт користувача Elma Head}
   
   
- //*6
+//*6
 // Отримати масив користувачів, які потрапляють у вікову категорію від min до max років (поле age).
   
 const getUsersWithAge = (users, min, max) => {
